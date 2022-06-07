@@ -7,13 +7,16 @@
 3. Telegram: @Meatdance
 4. discord: MeatDance#6507
 
-===
+---
 
 I am a young, purposeful young man, ready to conquer this world. I am taking a course for a future good life, for constant development, I really want to become a part of the IT world.
 
-===
+---
+
 I have basic knowledge of Python, JavaScript, Git, HTML, CSS.
-===
+
+---
+
 ```
 function multiply(a, b){
   a * b
@@ -22,7 +25,6 @@ function multiply(a, b) {
   return a * b
 }
 ```
-===
 I have no work experience.
 ===
 I graduated from the College of Computer Science and Law, Tiraspol 2011-2015
