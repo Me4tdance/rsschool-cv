@@ -1,5 +1,19 @@
-.center { text-align: center }
-.background {
- color: #fff; 
- background-color: #000;
+.nav {
+  padding: 20px 30px;
+  text-align: center;
+}
+.nav-item {
+    padding: 5px;
+    font-size: 22px;
+}
+div {
+    display: flex;
+    
+}
+.name {
+    text-align: center;
+    
+}
+.userimg {
+    width: 300px;
 }
