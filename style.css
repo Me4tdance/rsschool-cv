@@ -1,11 +1,13 @@
-.wrapper {
-    width: 879px;
-    margin: 0 auto;
-}
 body {
     background-color: black;
     color: white;
     display: block;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 879px;
     margin: 0 auto;
 }
 .nav {
@@ -62,6 +64,8 @@ h2 {
     margin-top: 0;
 }
 .aside {
+    display: flex;
+    flex-direction: column;
     float: right;
     width: 250px;
     margin: 0 auto;
@@ -76,10 +80,11 @@ h2 {
 }
 h3 {
     margin: 0px 0px;
-    font-size: 30px;
+    font-size: 28px;
     padding: 0px 15px;
     text-align: left;
     color: white;
+    background-color: blueviolet;
 }
 .hr2 {
     padding: 0 0 0 20px;
@@ -88,20 +93,18 @@ h3 {
     padding: 0 0 15px 0;
 }
 .line {
-    margin-bottom: left 15px;
     border-bottom: ridge 3px #d71212;
 }
 .softskill {
-    padding: 5px 0;
+    background-color: black;
+    padding: 0 0;
     margin: -5px 10px;
     font-size: 25px;
 }
 .englishlevel {
-    padding: 0;
-    margin: 0 auto;
-    height: auto;
     font-size: 25px;
     background-color: black;
+    height: 100px;
 }
 .center {
     text-align: center;
@@ -126,8 +129,7 @@ h3 {
     display: flex;
     align-items: center;
     background-color: white;
-    margin: 985px 0 0 0;
-    padding: 0 0 0 20px;
+    margin: 1000px auto;
 }
 .pFooter {
     padding: 0 0 0 10px;
